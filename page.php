@@ -1,0 +1,24 @@
+<?php /* plantilla comodin que muestra contenido de paginas, noticias etc, lo que sea necesario */ ?>
+<?php get_header(); ?>
+<div class="fondo publicacion h2"> 
+<h2> <?php the_title(); ?></a></h2>
+
+    <?php 
+        if(is_single()){
+            include('infonoticias.php');
+        }
+    ?>
+</div>
+<div class="container"> 
+	<div class="row">
+   <div class="col-lg-12">
+    		<div class="publicacion clearfix">
+	       			<?php include('plantilla_single.php'); ?> 
+	       		</div>  
+	    	</div>
+	   </div> 
+	</div>
+	</div>
+	
+<?php get_footer(); ?>         
+          
