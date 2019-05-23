@@ -29,7 +29,7 @@
         </div>
         <?php endwhile; else: ?>
              <div class="showcase-slide">
-                <div c>lass="showcase-content">
+                <div class="showcase-content">
                         <div class="izquierda">
                             <h1>No hay contenido en esta seccion</h1>
                             
@@ -53,19 +53,16 @@
     <div class="subbar clearfix hidden-xs hidden-sm hidden-md">
          <form class="col-lg-5 col-md-5 formbuscar" role="search" action="<?php echo bloginfo('url'); ?>" method="get"  id="searchform">
             <div class="form-inline buscar">
-                <label class="fuente2" for="s" >BUSCAR EN EL SITIO</label> <input type="text" name="s" id="inputbuscar" value="<?php the_search_query(); ?>" class="form-control input-sm" >
-            </div>
-          </form>
-        <div class="col-lg-2 col-md-2">
-            
-        </div>
-        <div class="col-lg-7 col-md-5 socialmedia">
-            <span class="fuente2">SENAVITAT SOCIAL MEDIA</span>
+                <label class="fuente2">BUSCAR EN EL SITIO</label> <input type="text" name="s" id="inputbuscar" value="<?php the_search_query(); ?>" class="form-control input-sm" >      </div>
+          </form> 
+
+                   <div class="col-lg-7 col-md-5 social"> 
+            <span class="fuente2"></span>
             <?php include('links_socialmedia.php'); ?>
         </div>
         
     </div>
-    
 </div>
 </div>
-    </div>
+</div>
+</div>

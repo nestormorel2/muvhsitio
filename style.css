@@ -78,7 +78,7 @@ a:hover{
     position: sticky;
     top: 0;
     z-index: 99999;
-    margin-right: -2px;
+    
 }
 nav .waves-effect{
     display: block;
@@ -116,8 +116,8 @@ padding-right: 10px;
 
 .navbar-default .navbar-nav > li > a{
     color: #0e0e0e;
-	padding-left: 10px;
-padding-right: 10px;
+	padding-left: 30px;
+    padding-right: 30px;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -279,6 +279,8 @@ padding: 15px 12px 14px 12px;
     border-left: solid 1px #cecece;
 }
 
+ul li:hover ul {display: block;}
+
 .cuadritoinfo p{
     padding-left: 15px;
 }
@@ -409,6 +411,7 @@ padding: 15px 12px 14px 12px;
 
 
 
+
 }
 
 .publicestirar
@@ -453,7 +456,7 @@ address{
 .publicacion h2{
  
    font-weight: normal;
-   font-size: 40px;
+ 
    font-family: Gotham Bold !important;
    padding-bottom: 10px;
    margin-bottom: 20px;
@@ -463,6 +466,21 @@ address{
 
 
 }
+
+
+.titulos h2{
+ 
+    font-weight: normal;
+    font-size: 18px;
+    font-family: Gotham Bold !important;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #001c54;
+    padding-left: 22px;
+    
+ 
+ 
+ }
 
 
 .titulo h2 {
@@ -489,7 +507,7 @@ address{
     background-size: cover;
     background-position: center center;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 .publicestirar h2{
     
@@ -979,8 +997,6 @@ border-top: none;
     font-family: 'calluna_sansregular';
     text-transform: uppercase;
    color:#FFF;
-   position: sticky;
-    top: 0;
 }
 }
 
