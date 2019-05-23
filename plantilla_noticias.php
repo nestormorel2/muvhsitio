@@ -1,4 +1,6 @@
 <?php /* plantilla utilizada para listar las noticias */ ?>
+<div class="container"> 
+<div class="col-sm-12">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <div class="publicestirar clearfix">
         <?php if(has_post_thumbnail(get_the_ID())){ ?><h2> <a href="<?php the_permalink(); ?>"> 
@@ -18,3 +20,5 @@
 
 <br>
 <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?></br>
+</div>
+</div>

@@ -78,7 +78,7 @@ a:hover{
     position: sticky;
     top: 0;
     z-index: 99999;
-    margin-right: -65px;
+    margin-right: -2px;
 }
 nav .waves-effect{
     display: block;
@@ -416,7 +416,6 @@ padding: 15px 12px 14px 12px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
-    padding-left: 15px;
 	font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
     border-radius: 2px;
     margin: 2rem 0 2rem 0;
@@ -459,7 +458,7 @@ address{
    padding-bottom: 10px;
    margin-bottom: 20px;
    color: #001c54;
-   padding-left: 59px;
+   padding-left: 22px;
    
 
 

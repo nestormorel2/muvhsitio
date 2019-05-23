@@ -92,12 +92,10 @@ $error =$_GET['e'];
     }
 }
 ?>
-
+<div class"container">
 	<div class="row">
-	   <div class="col-lg-3">
-	            <?php get_sidebar(); ?>
-	   </div>            
-	   <div class="col-lg-9">
+	           
+	   <div class="col-sm-12">
 	       <div class="noticias">
 	       		<div class="publicacion clearfix">
 	       			<?php include('plantilla_single.php'); ?> 

@@ -648,7 +648,7 @@ add_action('admin_menu', 'remove_menus');
 
 
 function custom_excerpt_length( $length ) {
-	return 30;
+	return 24;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
