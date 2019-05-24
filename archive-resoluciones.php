@@ -1,15 +1,21 @@
 <?php /* plantilla del listado de contrataciones */ ?>
 <?php get_header(); ?>
-	<div class="row">
-	   <div class="col-lg-3 col-md-3">
-        <?php get_sidebar(); ?>
-    </div>
-    <div class="col-lg-9 col-md-9">
+<div class="fondo publicacion h2">
+	<div class="container"> 
+		<div class="row">  
+		<h2>Resoluciones</h2>
+
+</div>
+	</div>
+		</div>
+		<div class="container"> 
+			<div class="row"> 
+    <div class="col-sm-12">
 	       <div class="noticias">
 	       
 	       		<div class="publicacion clearfix">
 
-	       		<h2>Resoluciones</h2>
+	       		
 		       		
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					    <div class="publicacion clearfix">
@@ -30,4 +36,4 @@
 	   </div> 
 	</div>
 <?php get_footer(); ?>           
-          
+          >

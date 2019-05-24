@@ -1,15 +1,21 @@
 <?php /* plantilla del listado de contrataciones */ ?>
 <?php get_header(); ?>
-	<div class="row">
-	   <div class="col-lg-3 col-md-3">
-        <?php get_sidebar(); ?>
-    </div>
-    <div class="col-lg-9 col-md-9">
+	<div class="fondo publicacion">
+		<div class="container">
+			<div class="row"> 
+			<h2>Agencias Regionales</h2>
+</div>
+	</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+    			<div class="col-sm-12">
 	       <div class="noticias">
 	       
 	       		<div class="publicacion clearfix">
 
-	       		<h2>Agencias Regionales</h2>
+	       		
 
 	       		<ul>
 	       		<?php
@@ -37,5 +43,7 @@
 	    	</div>
 	   </div> 
 	</div>
+</div>
+</div>
 <?php get_footer(); ?>           
           

@@ -1,16 +1,18 @@
 <?php /* plantilla del listado de contrataciones */ ?>
 <?php get_header(); ?>
-	<div class="row">
-	   <div class="col-lg-3 col-md-3">
-        <?php get_sidebar(); ?>
-    </div>
-    <div class="col-lg-9 col-md-9">
-	       <div class="noticias">
-	       
-	       		<div class="publicacion clearfix">
+<div class="fondo publicacion h2">
+	<div class="container">
+		<div class="row">
+	<h2>Direcciones Generales</h2>
 
-	       		<h2>Direcciones Generales</h2>
-
+</div> 
+	</div>
+			</div> 
+			<div class="container"> 
+				<div class="row"> 
+		 		<div class="col-sm-12">
+	       			<div class="publicacion clearfix">
+	       		
 	       		<ul>
 	       		<?php
 	       			$args=$wp_query->query_vars;
