@@ -3237,9 +3237,11 @@ input[type="button"].btn-block {
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box;
+ 
+  background-color: #fff;
+  box-shadow: 0 8px 9px 0 rgba(0,0,0,0.35);
+  transition: background 0.2s ease-in 0s;
 }
 
 .dropdown-menu.pull-right {
@@ -3262,6 +3264,7 @@ input[type="button"].btn-block {
   line-height: 1.428571429;
   color: #333333;
   white-space: nowrap;
+  
 }
 
 .dropdown-menu > li > a:hover,
